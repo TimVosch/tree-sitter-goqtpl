@@ -1,0 +1,90 @@
+[
+  {
+    "type": "left_delimiter",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "go_content",
+          "named": true
+        },
+        {
+          "type": "left_delimiter",
+          "named": true
+        },
+        {
+          "type": "right_delimiter",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "go_content",
+    "named": true
+  },
+  {
+    "type": "right_delimiter",
+    "named": true
+  },
+  {
+    "type": "text",
+    "named": true
+  },
+  {
+    "type": "{%",
+    "named": false
+  },
+  {
+    "type": "{%=",
+    "named": false
+  },
+  {
+    "type": "{%d",
+    "named": false
+  },
+  {
+    "type": "{%dl",
+    "named": false
+  },
+  {
+    "type": "{%du",
+    "named": false
+  },
+  {
+    "type": "{%dul",
+    "named": false
+  },
+  {
+    "type": "{%j",
+    "named": false
+  },
+  {
+    "type": "{%q",
+    "named": false
+  },
+  {
+    "type": "{%u",
+    "named": false
+  },
+  {
+    "type": "{%uz",
+    "named": false
+  },
+  {
+    "type": "{%v",
+    "named": false
+  }
+]
